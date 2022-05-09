@@ -20,21 +20,15 @@ The 'EIN'and 'NAME' are neither target nor features and should be removed from t
 
 ### Compiling, Training, and Evaluating the Model
 
-* How many neurons, layers, and activation functions did you select for your neural network model, and why?
-
-* Were you able to achieve the target model performance?
-
-* What steps did you take to try and increase model performance?
-
-Optimization #1:
+* Optimization #1:
 Adjust the number of hidden layers to 6 and Nuerons to 30 between layers (initial 300). Keep the activation function as relu. At the end, the accurancy decreased in 0.4%.
 
-Optimization #2:
+* Optimization #2:
 Keep the data but adjust the number of hidden layers to 3 and Nuerons to 30 between layers (initial 300). There was an improvement of 0.2% in comparison to the first Optimization test. However, a decreased of 0.2% in comparison to the otiginal model.
 
-Optimization #3
+* Optimization #3
 Adjust data(include STATUS), adjust the number of hidden layers to 4 and Nuerons(initial 130). Also, adjust the activation function to leaky_relu and Train the model in 200. In the end the model decreased in 0.2% in comparison to the original model and improved in 0.2% in comparison to test 1.
 
 ## Summary
 The model did not reach the 75% expected. However, it can predict if applicants will be successful funded by Alphabet Soup with an accuracy of 72%.
-It is possible to conclude that the data is too noisy and if we eliminate more features it may help improlbe the model. Also, a Random Forest may have a better prediction rate.
+It is possible to conclude that the data is too noisy and if we eliminate more features it may help improve the model. Also, a Random Forest may have a better prediction rate.
